@@ -1,1 +1,9 @@
- print("Process is running with PID : ", os.getpid)
+import gc
+
+class Demo:
+   
+   # class variable
+   No1 = 10
+   No2 = 11
+   
+   def __init__(self):
