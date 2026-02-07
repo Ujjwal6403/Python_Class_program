@@ -1,0 +1,1 @@
+ # print("File size : ",os.path.getsize(fname))   #Path issue

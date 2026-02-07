@@ -14,7 +14,7 @@ def main():
    
    start_time = time.time()
    
-   pobj = multiprocessing.pool()
+   pobj = multiprocessing.Pool()
    Result = pobj.map(SumCube,Data)
    
    pobj.close()

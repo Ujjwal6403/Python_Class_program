@@ -4,7 +4,7 @@ def SumEven(No):
    sum = 0
    for i in range(2,No+1,2):
       sum = sum + i
-   print("odd sum is : ",sum)
+   print("Even sum is : ",sum)
       
 def Sumodd(No):
    sum = 0

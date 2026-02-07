@@ -24,8 +24,8 @@ def main():
    print("PPID of main : ",os.getppid())    # cmd 11
    start_time = time.time()
    
-   t1 = multiprocessing.process(target=SumEven,args=(100000000,))
-   t2 = multiprocessing.process(target=Sumodd,args=(100000000,))
+   t1 = multiprocessing.Process(target=SumEven,args=(100000000,))
+   t2 = multiprocessing.Process(target=Sumodd,args=(100000000,))
    
    t1.start()
    t2.start()

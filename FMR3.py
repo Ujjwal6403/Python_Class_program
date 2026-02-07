@@ -23,5 +23,6 @@ def main():
    print("Data after reduce is : ",RData)
    
    
+   
 if __name__ == "__main__":
    main()
